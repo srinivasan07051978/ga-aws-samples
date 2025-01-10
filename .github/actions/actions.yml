@@ -14,4 +14,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Terraform Parent Workflow
-        uses: ./.gihub/actions/actions.yml
+        # uses: ./.gihub/actions/actions.yml
+        uses: https://github.com/srinivasan07051978/terraform-workflow.git
+        
